@@ -28,4 +28,24 @@
   <script src="components/version/interpolate-filter.js"></script>
   <script src="home/home.js"></script>
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBGwFeduKU7ByLH9BZJoy5FqM1QCsw0Ba0",
+    authDomain: "buddy-be3d7.firebaseapp.com",
+    databaseURL: "https://buddy-be3d7.firebaseio.com",
+    projectId: "buddy-be3d7",
+    storageBucket: "buddy-be3d7.appspot.com",
+    messagingSenderId: "13947405698"
+  };
+  firebase.initializeApp(config);
+
+  var root = firebase.database().ref('user1');
+  root.on('value', function(snap){
+    var x = snap.val().email;     //this will print out the user's email
+    console.log(x);
+  })
+</script>
 </html>
