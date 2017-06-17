@@ -1,36 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
-/*
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
-}
-
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
-}
-
-.menu > li {
-  display: inline;
-}
-
-.menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
-}*/
 
 body{
+  background: url('http://i.imgur.com/8XCgxG1.jpg');
+  background-color: white !important;
   background-size: cover;
   text-align: center;
 }
-.position{
+
+#A{
+  font-family: 'Dosis', sans-serif;
   margin-top: 65%;
+}
+
+#B h1{
+  color: red;
 }
 
 p{

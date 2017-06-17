@@ -16,9 +16,10 @@
 </head>
 <body>
   <div ng-view></div>
-
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script> -->
+
+  <!-- CONFIGURING THE COMPONENTS OFN AN APP -->
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
@@ -26,8 +27,17 @@
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
   <script src="home/home.js"></script>
+  <script src="register/register.js"></script>
+
+  <!-- MENU TO NAVIGATE -->
+  <ul class="menu">
+    <li><a href="#!/home">home</a></li>
+    <li><a href="#!/register">register</a></li>
+  </ul>
 </body>
 
+
+<!-- THIS PART IS FOR FIREBASE CONFIGURATION -->
 <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
 <script>
   // Initialize Firebase

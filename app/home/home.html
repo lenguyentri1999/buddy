@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
 <head>
+
+    <title>Buddy</title>
     <!-- LINK TO BOOTSTRAP STUFF -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
-    <title>Buddy</title>
 
     <!-- LINK TO FIREBASE -->
     <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
@@ -15,24 +16,19 @@
     <script src="https://cdn.firebase.com/js/simple-login/1.6.2/firebase-simple-login.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
     <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
-    <style>
-      body{
-        background-color: white;
-        font-family: 'Dosis', sans-serif;
-      }
-    </style>
+
 </head>
 <body>
-  <div class="container position">
-    <h1> Sign In</h1>
-      <form class="form-signin" role="form">
-        <input type="email" class="form-control" placeholder="Email address" required="" autofocus="">
-        <input type="password" class="form-control" placeholder="Password" required="">
-        <label class="checkbox">
-      </label>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">SIGN IN</button>
-      <p>Don't have an account? Click <a href="../home/register.html">register!</a></p>
-    </form>
-  </div>
+  <div id="A" class="container">
+      <h1> Sign In</h1>
+        <form class="form-signin" role="form">
+          <input type="email" class="form-control" placeholder="Email address" required="" autofocus="">
+          <input type="password" class="form-control" placeholder="Password" required="">
+          <label class="checkbox">
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">SIGN IN</button>
+        <p>Don't have an account? Click <a href="../register/register.html">register!</a></p>
+      </form>
+    </div>
 </body>
 </html>
