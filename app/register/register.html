@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app="myApp.register" ng-controller="registerCtrl">
 <head>
     <!-- LINK TO BOOTSTRAP STUFF -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -15,11 +15,19 @@
     <script src="https://cdn.firebase.com/js/simple-login/1.6.2/firebase-simple-login.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
     <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+    <script src="register.js"></script>
 </head>
 </html>
 <body>
   <div id="B" class="container">
     <h1> Register </h1>
+    <form class="form-signin" role="form">
+      <input ng-model="email" type="email" class="form-control" placeholder="Email address" required="" autofocus="">
+      <input type="password" class="form-control margin" placeholder="Password" required="">
+      <input type="password" class="form-control" placeholder="Confirm Password" required="">
+    <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="writeUserData()">REGISTER</button>
+    <p>Already have an account? Click <a href="#!/home">sign in!</a></p>
+  </form>
   </div>
 
 </body>

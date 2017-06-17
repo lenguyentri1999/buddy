@@ -8,14 +8,16 @@ body{
   text-align: center;
 }
 
-#A{
+/* ----- STYLING FOR SIGN IN AND REGISTRATION PAGE */
+#A, #B{
   font-family: 'Dosis', sans-serif;
   margin-top: 65%;
 }
 
-#B h1{
-  color: red;
+.margin{
+  margin-bottom: -1px !important;
 }
+
 
 p{
   font-size: 18px;
