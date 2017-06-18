@@ -2,9 +2,11 @@
 
 angular.module('myApp', [
     'ngRoute',
-    'myApp.home',           // home module
+    'myApp.home',           //signin module
     'myApp.register',       //register module
-    'myApp.profile',
+    'myApp.profile',        //profile module
+    'myApp.interest',       //interest module
+    'myApp.settings',       //settings module
     'myApp.version'
 
 ]).
