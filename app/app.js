@@ -5,6 +5,7 @@ angular.module('myApp', [
     'myApp.home',           // home module
     'myApp.register',       //register module
     'myApp.profile',
+    'myApp.interest',
     'myApp.version'
 
 ]).

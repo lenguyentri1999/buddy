@@ -43,28 +43,30 @@ p{
 #C i{
   width: 25%;
   color: white;
+}
+
+#C a{
+  width: 25%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-/*------ STYLING FOR THE USER PROFILE ------- */
-#D{
-
-}
+/*------ STYLING FOR THE USER IMAGE------- */
 
 #D h1{
   font-family: 'Dosis', sans-serif;
 }
 
 #D img{
-  margin-top: 30%;
+  margin-top: 25%;
   width: 40%;
   border-radius: 100px;
 }
 
+
+/*------ STYLING FOR THE USER PROFILE ------- */
 #E{
   margin-top: 8%;
-  position: fixed;
   width: 100%;
 
 }
@@ -91,6 +93,7 @@ p{
   margin-top: -3%;
 }
 
+/*------ STYLING FOR THE HEADER ------- */
 #F{
   width: 100%;
   top: 0;
@@ -104,4 +107,40 @@ p{
 
 #F h1{
   text-align: center;
+}
+
+
+/* ------ STYLING FOR THE INTEREST INPUT FIELD  ------- */
+#G{
+  margin-top: 30%;
+}
+
+#G h2{
+  color: white;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+}
+
+#G input{
+  border: none;
+  margin-top: 3%;
+  background-color: rgba(0,0,0,0.1);
+  font-family: 'Abel', sans-serif;
+  color: white;
+  width: 70%;
+  padding: 2%;
+}
+
+#G button{
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  margin-top: 3%;
+  width: 70%;
+  padding: 2%;
+  font-family: 'Abel', sans-serif;
+}
+
+#G input::placeholder{
+  color: rgba(255,255,255,0.6);
 }
