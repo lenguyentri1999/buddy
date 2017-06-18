@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Abel|Droid+Sans|Hind|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body{
-  background-image: url('http://alliancetitlecorp.com/wp-content/uploads/abstract_blue_gaussian_blur_19_1920x1200_artwallpaperhi.com_.jpg');
   background-repeat: no-repeat;
-  background-color: white !important;
+  background-size: cover cover;
+  background-position: center center;
   text-align: center;
 }
 
@@ -32,9 +32,9 @@ p{
 #C{
   position: fixed;
   bottom: 0;
-  background-color: rgba(0,0,0,0.2);
-
+  background-color: rgb(33, 47, 60);
 }
+
 .wrap{
   display: flex;
   width: 100%;
@@ -47,20 +47,32 @@ p{
 
 #C a{
   width: 25%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 /*------ STYLING FOR THE USER IMAGE------- */
+#D{
+  margin-top: 30%;
+}
+
+#D1{
+  background-color: #D6DBDF;
+  position: fixed;
+  width: 100%;
+  height: 30%;
+  z-index: -100;
+  top: 0;
+}
 
 #D h1{
   font-family: 'Dosis', sans-serif;
 }
 
 #D img{
-  margin-top: 25%;
   width: 40%;
   border-radius: 100px;
+  border: 10px white solid;
 }
 
 
@@ -68,7 +80,6 @@ p{
 #E{
   margin-top: 8%;
   width: 100%;
-
 }
 
 #E p{
@@ -77,7 +88,7 @@ p{
   text-align: left;
   padding-left: 10%;
   padding-right: 10%;
-  color: white;
+  color: #2E4053;
   line-height: 30px;
 }
 
@@ -86,7 +97,7 @@ p{
 }
 
 #E ul{
-  color: white;
+  color: rgb(40, 55, 71);
   font-family: 'Abel', sans-serif;
   text-align: left;
   padding-left: 25%;
@@ -99,24 +110,28 @@ p{
   top: 0;
   position: fixed;
   color: white;
-  font-family: 'Abel', serif;
+  font-family: 'Hind', serif;
   text-transform: uppercase;
   font-size: 30px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color:  rgb(40, 55, 71);
+  box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
 }
 
 #F h1{
   text-align: center;
+  font-size: 25px;
 }
 
 
 /* ------ STYLING FOR THE INTEREST INPUT FIELD  ------- */
 #G{
   margin-top: 30%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 #G h2{
-  color: white;
+  color: rgb(40, 55, 71);
   font-family: 'Abel', sans-serif;
   font-size: 20px;
 }
@@ -126,21 +141,31 @@ p{
   margin-top: 3%;
   background-color: rgba(0,0,0,0.1);
   font-family: 'Abel', sans-serif;
-  color: white;
-  width: 70%;
+  color: rgb(40, 55, 71);
+  width: 100%;
   padding: 2%;
 }
 
 #G button{
   color: white;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(40, 55, 71,0.8);
   border: none;
   margin-top: 3%;
-  width: 70%;
+  width: 100%;
   padding: 2%;
   font-family: 'Abel', sans-serif;
+  border-radius: 2px;
 }
 
 #G input::placeholder{
-  color: rgba(255,255,255,0.6);
+  color: rgba(40, 55, 71,0.3);
+}
+
+#G p{
+  color: rgb(40, 55, 71);
+  font-size: 12px;
+  font-family: 'Abel', sans-serif;
+  font-style: italic;
+  margin-top: 3%;
+
 }
