@@ -1,25 +1,107 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Abel|Droid+Sans|Hind|Quicksand');
 
 body{
-  background: url('http://i.imgur.com/8XCgxG1.jpg');
+  background-image: url('http://alliancetitlecorp.com/wp-content/uploads/abstract_blue_gaussian_blur_19_1920x1200_artwallpaperhi.com_.jpg');
+  background-repeat: no-repeat;
   background-color: white !important;
-  background-size: cover;
   text-align: center;
 }
 
-/* ----- STYLING FOR SIGN IN AND REGISTRATION PAGE */
+/* ----- STYLING FOR SIGN IN AND REGISTRATION PAGE --------- */
+.icon{
+  background: url('http://i.imgur.com/8XCgxG1.jpg');
+}
 #A, #B{
   font-family: 'Dosis', sans-serif;
-  margin-top: 65%;
+  margin-top: 50%;
 }
 
 .margin{
   margin-bottom: -1px !important;
 }
 
-
 p{
   font-size: 18px;
   margin-top: 10px;
+}
+
+
+/* ------ STYLING FOR THE NAVIGATION BAR -------- */
+#C{
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2);
+
+}
+.wrap{
+  display: flex;
+  width: 100%;
+}
+
+#C i{
+  width: 25%;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/*------ STYLING FOR THE USER PROFILE ------- */
+#D{
+
+}
+
+#D h1{
+  font-family: 'Dosis', sans-serif;
+}
+
+#D img{
+  margin-top: 30%;
+  width: 40%;
+  border-radius: 100px;
+}
+
+#E{
+  margin-top: 8%;
+  position: fixed;
+  width: 100%;
+
+}
+
+#E p{
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  line-height: 30px;
+}
+
+#E i{
+  width: 10%;
+}
+
+#E ul{
+  color: white;
+  font-family: 'Abel', sans-serif;
+  text-align: left;
+  padding-left: 25%;
+  margin-top: -3%;
+}
+
+#F{
+  width: 100%;
+  top: 0;
+  position: fixed;
+  color: white;
+  font-family: 'Abel', serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#F h1{
+  text-align: center;
 }

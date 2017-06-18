@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.register', ['ngRoute'])
+var app = angular.module('myApp.register', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/register', {
@@ -10,5 +10,4 @@ angular.module('myApp.register', ['ngRoute'])
 }])
 
 .controller('registerCtrl', [function() {
-
 }]);

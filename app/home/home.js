@@ -11,6 +11,7 @@ angular.module('myApp.home', ['ngRoute'])
 }])
 
 // Home controller
-.controller('HomeCtrl', [function() {
-
+.controller('HomeCtrl', [function($scope) {
+  var username = $scope.user.email;
+  var password = $scope.user.password;
 }]);
