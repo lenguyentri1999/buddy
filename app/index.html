@@ -52,7 +52,6 @@
 </body>
 
 <script>
-
 var config = {
   apiKey: "AIzaSyBGwFeduKU7ByLH9BZJoy5FqM1QCsw0Ba0",
   authDomain: "buddy-be3d7.firebaseapp.com",
@@ -64,7 +63,7 @@ var config = {
 firebase.initializeApp(config);
   var root = firebase.database().ref('user1');
   root.on('value', function(snap){
-    var x = snap.val().interest; 
+    var x = snap.val().interest;
     console.log(x);
   })
 </script>
