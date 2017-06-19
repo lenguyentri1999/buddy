@@ -9,48 +9,6 @@ body{
   text-align: center;
 }
 
-/* ----- STYLING FOR SIGN IN AND REGISTRATION PAGE --------- */
-.icon{
-  background: url('http://i.imgur.com/8XCgxG1.jpg');
-}
-#A, #B{
-  font-family: 'Dosis', sans-serif;
-  margin-top: 50%;
-}
-
-.margin{
-  margin-bottom: -1px !important;
-}
-
-p{
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-
-/* ------ STYLING FOR THE NAVIGATION BAR -------- */
-#C{
-  position: fixed;
-  bottom: 0;
-  background-color: rgb(33, 47, 60);
-}
-
-.wrap{
-  display: flex;
-  width: 100%;
-}
-
-#C i{
-  width: 25%;
-  color: white;
-}
-
-#C a{
-  width: 25%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-
 /*---------------------- STYLING FOR THE HEADER ---------------------- */
 #header{
   width: 100%;
@@ -69,11 +27,50 @@ p{
   font-size: 25px;
 }
 
-/*------ STYLING FOR THE USER IMAGE------- */
-#D{
+/* ------ STYLING FOR THE BOTTOM NAVIGATION BAR -------- */
+#navbar{
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(33, 47, 60);
+}
+
+.wrap{
+  display: flex;
+  width: 100%;
+}
+
+#navbar i{
+  width: 25%;
+  color: white;
+}
+
+#navbar a{
+  width: 25%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+/* ----- STYLING FOR SIGN IN AND REGISTRATION PAGE --------- */
+#A, #B{
+  font-family: 'Dosis', sans-serif;
+  margin-top: 50%;
+}
+
+.margin{
+  margin-bottom: -1px !important;
+}
+
+p{
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+/*------ STYLING THE PROFILE PAGE------- */
+#C{
   margin-top: 0;
   padding-top: 30%;
-  background-color: #D6DBDF;
+  background-color: #85929E;
   position: fixed;
   width: 100%;
   height: 30%;
@@ -81,7 +78,7 @@ p{
 }
 
 
-#D img{
+#C img{
   width: 40%;
   border-radius: 100px;
   border: 10px white solid;
@@ -89,26 +86,60 @@ p{
 
 
 /*------------------------ STYLING FOR THE USER INFORMATION ------------------------ */
-#E p{
+#C1 p{
   font-family: 'Abel', sans-serif;
   font-size: 15px;
   text-align: left;
   padding-left: 15%;
   padding-right: 10%;
-  color: #2E4053;
+  color: #626567;
   line-height: 30px;
 }
 
-#E i{
+#C1 i{
   width: 10%;
 }
 
-#E ul{
-  color: rgb(40, 55, 71);
+#C1 ul{
+  color: #626567;
   font-family: 'Abel', sans-serif;
   text-align: left;
   padding-left: 25%;
   margin-top: -3%;
+}
+
+
+/*  ------------------------STYLING FOR THE MATCHING PAGE ------------------------*/
+#D{
+  margin-top: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#D p, #E p{
+  font-family: 'Abel', sans-serif;
+  color: #626567;
+}
+
+/*THIS DIV WILL APPEAR WHEN A MATCH IS SUCCESSFUL */
+#E{
+  padding: 10%;
+}
+
+#E img{
+  width: 40%;
+  border-radius: 100px;
+}
+
+#E button{
+  margin-top: 10%;
+  background-color: white;
+  border: none;
+  color: #626567;
+  font-family: 'Abel', sans-serif;
+  padding: 5%;
+  border: #85929E 1px solid;
+  border-radius: 5px; 
 }
 
 
@@ -135,7 +166,7 @@ p{
   padding: 2%;
 }
 
-#G button, #H button{
+#G button, #H button, #D button{
   color: white;
   background-color: rgba(40, 55, 71,0.8);
   border: none;
@@ -145,6 +176,7 @@ p{
   font-family: 'Abel', sans-serif;
   border-radius: 2px;
 }
+
 
 #G input::placeholder, #H input::placeholder{
   color: rgba(40, 55, 71,0.3);
