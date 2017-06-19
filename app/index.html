@@ -37,17 +37,35 @@
   <script src="home/home.js"></script>
   <script src="register/register.js"></script>
   <script src="profile/profile.js"></script>
+  <script src="interest/interest.js"></script>
+  <script src="settings/settings.js"></script>
+
+  <!-- ADDING IN NAVIGATION BAR -->
+  <div id="C" class="wrap">
+    <a href="#!/profile"><i class="fa fa-user-o fa-lg" aria-hidden="true"></i></a>
+    <a href="#!match"><i class="fa fa-heart-o fa-lg" aria-hidden="true"></i></a>
+    <a href="#!/interest"><i class="fa fa-plus fa-lg" aria-hidden="true"></i></a>
+    <a href="#!/settings"><i class="fa fa-cog fa-lg" aria-hidden="true"></i></a>
+  </div>
+
+
 </body>
 
-
 <script>
-
-  /*
+var config = {
+  apiKey: "AIzaSyBGwFeduKU7ByLH9BZJoy5FqM1QCsw0Ba0",
+  authDomain: "buddy-be3d7.firebaseapp.com",
+  databaseURL: "https://buddy-be3d7.firebaseio.com",
+  projectId: "buddy-be3d7",
+  storageBucket: "buddy-be3d7.appspot.com",
+  messagingSenderId: "13947405698"
+};
+firebase.initializeApp(config);
   var root = firebase.database().ref('user1');
-  root.on('value', function(snap){  
-    var x = snap.val().interest;     //this will print out the user's email
+  root.on('value', function(snap){
+    var x = snap.val().interest;
     console.log(x);
-  })*/
+  })
 </script>
-<script src="firebase-init.js"></script>
+<!--<script src="firebase-init.js"></script>-->
 </html>
