@@ -10,4 +10,5 @@ var app = angular.module('myApp.register', ['ngRoute'])
 }])
 
 .controller('registerCtrl', [function() {
+  
 }]);
