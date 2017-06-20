@@ -5,10 +5,12 @@ angular.module('myApp', [
     'myApp.home',           //signin module
     'myApp.register',       //register module
     'myApp.profile',        //profile module
-    'myApp.match',
+    'myApp.match',          //match module
     'myApp.interest',       //interest module
     'myApp.settings',       //settings module
-    'myApp.version'
+    'myApp.version',
+    'firebase',
+    'firebaseConfig'
 
 ]).
 config(['$locationProvider','$routeProvider', function($locationProvider,$routeProvider) {
